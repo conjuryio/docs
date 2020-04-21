@@ -12,7 +12,8 @@ paths:
   /v1/token:
     post:
       summary: Create Token
-      tags: []
+      tags:
+        - Token
       responses:
         '201':
           description: Created
@@ -50,7 +51,8 @@ paths:
         required: true
     post:
       summary: Consume Token
-      tags: []
+      tags:
+        - Token
       responses:
         '200':
           description: OK
