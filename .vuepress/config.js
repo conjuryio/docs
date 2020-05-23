@@ -25,7 +25,7 @@ module.exports = {
                 ],
             },
             {
-                title: 'Tokens',
+                title: 'Token API',
                 collapsable: false,
                 children: [
                     '/create-token',
